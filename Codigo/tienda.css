@@ -17,10 +17,8 @@ a:hover {
 
 .producto{
     float: left;
-    padding: 20px;
+    padding: 25px;
 }
-
-
 
 .subtitulo{
     font-family: 'Aadhunik', sans-serif;
@@ -50,14 +48,18 @@ nav{
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.producto {
+
+.producto{
     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    background-color:rgb(7, 34, 55) ;
 }
 
-.titulo{
-    background-color:rgb(7, 34, 55) ;
+.producto h2{
+    padding-top: 3%;
+}
+
+.e{
+    text-align: center;
 }
 
 h1{
@@ -192,14 +194,6 @@ header{
     float:right;
 }
 
-.titulo{
-    animation-duration: 3s;
-    animation-name: fadeIn;
-    font-family: 'Aadhunik', sans-serif;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-size: 70px;
-}
 
 
 .facebookIFR{
