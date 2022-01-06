@@ -1,0 +1,490 @@
+
+body{
+    overflow-x: hidden;
+    background-color: #024066;
+}
+
+
+.subtitulo{
+    font-family: 'Aadhunik', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.titles{
+    line-height:0;
+}
+
+.cover{
+    background-image: url(20210927_093908.jpg);
+    border-radius: 0 0 30px 30px ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(80, 152, 240, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+}
+
+nav{
+    font-style: normal;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.inicioSesion{
+    position: relative;
+    display: inline-block;
+    width:300px;
+    height:100px;
+    background-color: rgb(7, 34, 55);
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.navSesion{ 
+    margin: auto;
+    width:50%;
+    padding-left:48px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+.username{
+    font-family: 'Aadhunik', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+header{
+    background-color: #0f385ad2;
+    border-radius: 30px /20px ;
+}
+
+
+.nav-link{
+    font-family: 'Aadhunik', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.cover-small{
+    height: 200px;
+}
+
+
+
+
+
+.subtar{
+    text-align: center;
+    font-family: 'Aadhunik', sans-serif;
+    color: rgba(255, 255, 255, 0.842);
+    width: auto;
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:black;
+    font-family: 'Aadhunik', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.842);
+  
+}
+
+.esperar{
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height:2;
+    color: white;
+}
+
+.conocenos{
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height:2;
+    color: white;
+}
+
+.card-title{
+    font-family: 'Aadhunik', sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.card-text{
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height:2;
+}
+
+.h5{
+    color:white;
+    font-size: 40px;
+}
+
+.subtar{
+    font-family: 'Century Gothic', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height:2;
+}
+
+.imagenportada{
+    animation-duration: 5s;
+    animation-name: fadeIn;
+    background-image: url(Portada_y_perfilMesa_de_trabajo_2-8.png);
+    line-height:1.5;
+}
+
+
+
+.SubtituloPri{
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}
+
+h1{
+    animation-duration: 2s;
+    animation-name: fadeIn;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Aadhunik', sans-serif;
+    color: rgba(255, 255, 255, 0.842);
+    line-height:1.5;
+}
+
+.subtitulo{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Aadhunik', sans-serif;
+    color: rgba(255, 255, 255, 0.842);
+    line-height:0;
+}
+
+
+p{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+
+}
+
+.pp{
+    animation-duration: 3s;
+    animation-name: fadeIn;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Aadhunik', sans-serif;
+    color: white;
+}
+
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+.carouselExampleCaptions > .item > img {
+    width: 640px;
+    height: 360;
+}
+
+.responsive-iframe{
+    position: relative;
+    padding-top: 56.25%;
+
+}
+
+.promo{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Aadhunik', sans-serif;
+    color: rgba(255, 255, 255, 0.842);
+    line-height:1.5;
+}
+
+
+.tarjetaS{
+    font-size: 80px;
+    float:right;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+}
+
+.responsive-iframe iframe{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.image-container{
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.column2 {
+    float: center;
+    width: 60%;
+    padding: 7px;
+    margin-left: auto;
+  margin-right: auto;
+  }
+  
+  
+  @keyframes linearwipe{ 
+    from { width: 0; } 
+  }  
+
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .whatsapp {
+    background: #075e54;
+    color: white;
+  }
+
+  footer{
+    text-align: center;
+}
+
+.container {
+	display: inline-flex;
+    display: center;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+    text-decoration: none;
+}
+
+.small {
+	width: 180px;
+	height: auto;
+	position: static;
+	margin: 3px;
+	border-radius: 8px;
+}
+ 
+.small:hover {
+	-webkit-transform: scale(1.03, 1.03);
+	transform: scale(1.03, 1.03);
+}
+
+.google{
+    overflow:hidden;
+    padding-bottom:32.25%;  
+    position:relative;
+    height:0;
+}
+
+.google iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+    padding-bottom: 0.7%;
+    
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.lightbox img {
+    width: 39%;
+    display: contents;
+    margin-top: 1%;
+    margin: 0 auto;
+    
+}
+
+.imagenes{
+    margin: auto;
+    width: 80%;
+}
+
+.btn{
+    display: block;
+    width: 200px;    
+    margin: 0 auto;
+
+}
+
+.seccion{
+    background-color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 4%;
+}
+
+.lightbox p{
+    line-height:1.5;
+}
+
+a div {
+	position: relative;
+	margin: auto auto;
+	text-align: center;
+    text-decoration: none;
+}
+ 
+.lightbox:target {
+	display: -webkit-box;
+	display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0 0 20px 20px ;
+
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: inline-flex;
+}
+
+ 
+footer ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.footerLeft{
+    justify-self: left;
+}
+
+.footerRight{
+    justify-self: right;
+}
+
+.footerCenter{
+    color: white;
+    font-size: 15px;
+    font-style: inherit;
+    justify-self: center;
+}
+
+
+
+
+/* Platzi: Hoover es cuando pasa el mouse*/
+
+ /*Referencia de rotacion dependiendo donde se haga*/
+/*transform-origin: left top;*/
+
+
+
+/*.tarjetaVales:hover{
+    
+
+    /*transform: scale(0);*/
+    /*transform: rotateX(20deg);*/
+    /*transform: skewY(5deg);*/
+
+    /*rotacion a partir de perspectiva*/
+    /*transform-style: preserve-3d;*/
+    /*transform: rotateX(45deg);*/
+    
+    /*Transformaciones
+    animation: fadeIn 3s;
+    transition-delay: 2s;
+    
+    transform: translateX(60px);
+    transition: transform 3s linear;
+    opacity: 1;
+    transform: translateY(200px);
+    */
+
+
+    /*transform: translateX(200px);
+	transition-duration: 1.5s;*/
+    
+
+
+
+
+
+
+
+
+
+
+
+
